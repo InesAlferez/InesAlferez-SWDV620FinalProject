@@ -1,0 +1,165 @@
+html,body{
+    width: fit-content;
+    height: fit-content;
+    font-family: sans-serif;
+    background: #ABCDEF;
+  }
+  .wide{
+    letter-spacing: 4px;
+    color: #032734;
+  }
+  .head{
+    font-size: 10px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+  }
+  .large-text{
+    font-size: 64px;
+  }
+  .display-container, .account, .leaveBalance, .Reports{
+    color:#11566f;
+    filter: grayscale(50%);
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  navigation{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+  }
+  .bar{
+    overflow: hidden;
+    background:-webkit-linear-gradient(to right, #267871, #136a8a);
+    background:linear-gradient(to right, #267871, #136a8a);
+    box-shadow: 
+        0px 2px 10px rgba(0,0,0,0.2), 
+        0px 10px 20px rgba(0,0,0,0.3), 
+        0px 30px 60px 1px rgba(0,0,0,0.5);
+    padding: 3px 30px;
+    opacity: 1;
+  }
+  .bar-button{
+    padding: 8px 16px;
+    float: left;
+    border: none;
+    display:block;
+    outline: 0;
+  }
+  .signbutton{
+    float: right;
+    border: none;
+    display:block;
+    outline: 0;
+  }
+  .signbutton:hover{
+    background: #032734;
+    color: dimgray;
+    transition: 0.5s;
+    }
+  form{
+    background:#11566f;
+  ;
+  }
+  .center-text{
+    color: #11566f
+  }
+  table, th, td{
+    border: 8px solid #11566f;
+    color: #11566f;
+    font-size: 25px;
+  }
+  
+
+
+
+  html,body {
+    width: fit-content;
+    height: fit-content;
+    font-family: sans-serif;
+    background: #ABCDEF;
+  }
+  .wide{
+    letter-spacing: 4px;
+    color: #032734;
+  }
+  .head{
+    font-size: 10px;
+    top: 50px;
+    left: 10px;
+    position: absolute;
+  }
+  .large-text{
+    font-size: 64px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .display-container, .account, .leaveBalance, .Reports{
+    color:#11566f;
+    filter: grayscale(50%);
+    position: center;
+  }
+  .middledisplay, .content, .leave-information{
+    position: center;
+    text-align: center;
+  }
+  navigation{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+  }
+  .bar{
+    overflow: hidden;
+    background:-webkit-linear-gradient(to right, #267871, #136a8a);
+    background:linear-gradient(to right, #267871, #136a8a);
+    box-shadow: 
+        0px 2px 10px rgba(0,0,0,0.2), 
+        0px 10px 20px rgba(0,0,0,0.3), 
+        0px 30px 60px 1px rgba(0,0,0,0.5);
+    padding: 3px 30px;
+    opacity: 1;
+  }
+  .bar-button{
+    padding: 8px 16px;
+    float: left;
+    border: none;
+    display:block;
+    outline: 0;
+  }
+  .signbutton{
+    float: right;
+    border: none;
+    display:block;
+    outline: 0;
+  }
+  .signbutton:hover{
+    background: #032734;
+    color: dimgray;
+    transition: 0.5s;
+    }
+  form{
+    background:#11566f;
+  ;
+  }
+  .center-text{
+    text-align: center;
+    color: #11566f
+  }
+  table, tr, th, td {
+    border: 8px solid #11566f;
+    color: #11566f;
+    font-size: 25px;
+    position: center;
+    text-align: center;
+  }
+  

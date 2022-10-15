@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<!-- This load the static files for css and js-->
+{%load static %}
+<link rel="stylesheet" href="{% static '/HomePage/style.css/' %}">
+</head>
+<header class="display-container wide" id="home">
+  <div class="middledisplay">
+    <h1 class="large-text">Welcome Back!</h1>
+    <img src="{% static 'HomePage/leave.jpg' %}" alt="Leave" class="leave" id="picture">
+    <h2>Do you need to request leave?</h2>
+
+  </div>
+</header>
+<body>
+    <div class='head'>
+        <h1>LMS</h1>
+    </div>
+    <navigation>
+    <div class="bar">
+        <a href="#account" class="bar-button">Account</a>
+        <a href="#leaveBalance" class="bar-button">Leave Balance</a>
+        <a href="#Reports" class="bar-button">Reports</a>
+        <a href="/LoginPage/login/" class="signbutton" id="signbutton">Sign Out</a>
+    </div>
+    </navigation>
+    <div class="account" id="account">
+    <div class="content">
+        <h1 class="center-text"><b>Account</b></h1>
+        <p class="wide"><i>You can view your account details below.</p><br>
+        <div class="table">
+                    <table>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Employee ID</th>
+                            <th>Department</th>
+                            <th>Position</th>
+                            <th>Manager</th>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>123456</td>
+                            <td>IT</td>
+                            <td>Developer</td>
+                            <td>John Smith</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+    </div>
+    <div class="Balance" id="leaveBalance">
+    <div class="content">
+        <h1 class="center-text"><b>Leave Balance</b></h1>    
+        <h2 class="wide">You can view your leave balance below.</h2>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Annual Leave</th>
+                            <th>Sick Leave</th>
+                            <th>Maternity Leave</th>
+                            <th>Paternity Leave</th>
+                            <th>Unpaid Leave</th>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        </div>
+        <br>
+        <div class="form">
+            <form>
+                <a href="/LeaveRequestPage/leaveRequest/" class="btn-request" id="go-request">Request Leave</a>
+            </form>
+        </div>
+    <div class="Reports wide" id="Reports">
+    <div class="leave-information">
+        <div class="center-text">
+        <h1 class="wide">Reports</h1>
+        <h2 class="wide">Below you can view your leave history.</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Leave Type</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Days</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Annual Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Sick Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Annual Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Sick Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Annual Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Sick Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Annual Leave</td>
+                    <td>01/01/2020</td>
+                    <td>01/01/2020</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                </tr>
+            </table>
+        <p><i>Please email us below if there is an error in your report.</i></p>
+        <p><i>thank you!</i></p>
+        <a href="mailto:email@example.com">Email us</a>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <p> Created by Ines Alferez 2022 Leave Management System</p>
+    </footer>
+</body>
+</html>

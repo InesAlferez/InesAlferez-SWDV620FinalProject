@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>LMS Login Page</title>
+    {%load static %}
+    <link rel="stylesheet" href="{% static '/LoginPage/style.css/' %}">
+</head>
+<body>
+    <section class='login' id='login'>
+        <div class='head'>
+            <h1 class='company'> LMS </h1>
+        </div>
+        <p class='msg'> Welcome back! </p>
+        <p>Please login to your account. </p>
+    <div class="form">
+        <form>
+            <input type="text" placeholder="Username" class="text" id="username" required>
+            <input type="password" placeholder="••••••••••••••" class="password" required>
+            <a href="/HomePage/home/" class="btn-login" id="do-login">Login</a>
+        </form>
+    </div>
+    <footer>
+        <p> Created by Ines Alferez 2022 Leave Management System</p>
+    </footer>
+</body>
+</html>
